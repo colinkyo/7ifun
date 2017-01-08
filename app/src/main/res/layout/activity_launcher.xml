@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_launcher"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.a7ifun.com.a7ifun.LauncherActivity">
+<ImageView
+    android:id="@+id/iv_logo"
+    android:src="@drawable/alogo"
+    android:layout_centerInParent="true"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    />
+    <TextView
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/iv_logo"
+        android:text="欢迎来的7ifun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

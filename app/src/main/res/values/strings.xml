@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">7ifun</string>
+    <string name="title_activity_native_json_parse">NativeJsonParseActivity</string>
+</resources>
