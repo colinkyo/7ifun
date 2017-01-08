@@ -33,4 +33,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile files('libs/gson-2.8.0.jar')
     compile files('libs/fastjson-1.1.54.android.jar')
+    compile files('libs/glide-3.7.0.jar')
 }

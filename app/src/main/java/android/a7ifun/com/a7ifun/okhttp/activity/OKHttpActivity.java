@@ -2,6 +2,8 @@ package android.a7ifun.com.a7ifun.okhttp.activity;
 
 import android.a7ifun.com.a7ifun.R;
 import android.app.Activity;
+import android.app.FragmentBreadCrumbs;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.os.Environment;
@@ -37,7 +39,7 @@ public class OKHttpActivity extends Activity implements View.OnClickListener {
     private static final int POST1 = 4;
     private ImageView iv;
     private static final String TAG = OKHttpActivity.class.getSimpleName();
-    private Button btn_get, btn_post, btn_get1, btn_post1, btn_download,btn_downloadimg;
+    private Button btn_get, btn_post, btn_get1, btn_post1, btn_download,btn_downloadimg,btn_showInLv;
     private TextView tv_show, tv_title;
     private ProgressBar pb;
     //OKHttp
@@ -79,6 +81,7 @@ public class OKHttpActivity extends Activity implements View.OnClickListener {
         btn_post1 = (Button) findViewById(R.id.btn_post1);
         btn_download = (Button) findViewById(R.id.btn_download);
         btn_downloadimg = (Button) findViewById(R.id.btn_downloadimg);
+        btn_showInLv = (Button) findViewById(R.id.btn_showInLv);
 
         tv_show = (TextView) findViewById(R.id.tv_show);
         tv_title = (TextView) findViewById(R.id.tv_title);
@@ -93,6 +96,7 @@ public class OKHttpActivity extends Activity implements View.OnClickListener {
         btn_post1.setOnClickListener(this);
         btn_download.setOnClickListener(this);
         btn_downloadimg.setOnClickListener(this);
+        btn_showInLv.setOnClickListener(this);
     }
 
     @Override
@@ -116,6 +120,10 @@ public class OKHttpActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.btn_downloadimg:
                 downloadImg();
+                break;
+            case R.id.btn_showInLv:
+                Intent intent = new Intent(this,OKHttpInListViewActivity.class);
+                startActivity(intent);
                 break;
         }
     }
