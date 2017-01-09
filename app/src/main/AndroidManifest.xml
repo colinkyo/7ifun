@@ -25,7 +25,10 @@
         <activity android:name=".json.activity.NativeJsonParseActivity" />
         <activity android:name=".json.activity.GsonActivity" />
         <activity android:name=".json.activity.FastJsonActivity" />
-        <activity android:name=".okhttp.activity.OKHttpInListViewActivity"></activity>
+        <activity android:name=".okhttp.activity.OKHttpInListViewActivity" />
+        <activity android:name=".android_pulltorefresh.PullToRefreshActivity" />
+        <activity android:name=".eventbus.EventBusActivity" />
+        <activity android:name=".eventbus.EventBusSendActivity"></activity>
     </application>
 
 </manifest>

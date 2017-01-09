@@ -5,16 +5,13 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="F:\Program Files\Android\Android Studio\gradle\gradle-2.14.1" />
+        <option name="gradleHome" value="D:\Program Files\Android\Android Studio\gradle\gradle-2.14.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/okgo" />
             <option value="$PROJECT_DIR$/okhttp-OkGo-master" />
             <option value="$PROJECT_DIR$/okhttputils" />
-            <option value="$PROJECT_DIR$/okrx" />
-            <option value="$PROJECT_DIR$/okserver" />
             <option value="$PROJECT_DIR$/sample-okhttp" />
           </set>
         </option>

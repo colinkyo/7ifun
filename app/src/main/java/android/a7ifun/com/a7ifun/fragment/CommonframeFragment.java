@@ -1,6 +1,8 @@
 package android.a7ifun.com.a7ifun.fragment;
 
 import android.a7ifun.com.a7ifun.R;
+import android.a7ifun.com.a7ifun.android_pulltorefresh.PullToRefreshActivity;
+import android.a7ifun.com.a7ifun.eventbus.EventBusActivity;
 import android.a7ifun.com.a7ifun.json.activity.FastJsonActivity;
 import android.a7ifun.com.a7ifun.json.activity.GsonActivity;
 import android.a7ifun.com.a7ifun.json.activity.NativeJsonParseActivity;
@@ -38,19 +40,29 @@ public class CommonframeFragment extends BaseFragment {
                     Intent intent = new Intent(mContent, OKHttpActivity.class);
                     startActivity(intent);
                     //mContent.startActivity(intent);
-                }else  if(data.toLowerCase().equals("nativejsonparse"))
+                }else if(data.toLowerCase().equals("nativejsonparse"))
                 {
                     Intent intent = new Intent(mContent, NativeJsonParseActivity.class);
                     startActivity(intent);
 
-                }else  if(data.toLowerCase().equals("gson"))
+                }else if(data.toLowerCase().equals("gson"))
                 {
                     Intent intent = new Intent(mContent, GsonActivity.class);
                     startActivity(intent);
 
-                }else  if(data.toLowerCase().equals("fastjson"))
+                }else if(data.toLowerCase().equals("fastjson"))
                 {
                     Intent intent = new Intent(mContent, FastJsonActivity.class);
+                    startActivity(intent);
+
+                }else if(data.toLowerCase().equals("pulltorefresh"))
+                {
+                    Intent intent = new Intent(mContent, PullToRefreshActivity.class);
+                    startActivity(intent);
+
+                }else if(data.toLowerCase().equals("eventbus"))
+                {
+                    Intent intent = new Intent(mContent, EventBusActivity.class);
                     startActivity(intent);
 
                 }
@@ -68,7 +80,7 @@ public class CommonframeFragment extends BaseFragment {
         //准备数据源
         datas = new String[]{"OKHttp","nativeJsonParse","Gson","FastJson", "xUtils", "Retrofit2",
                 "Fresco", "Glide", "GrennDao", "Rxjava",
-                "picasso", "evenBus", "jcvideoplayer", "pulltorefresh", "Expandablelistview", "UniversalviedoView"};
+                "picasso", "eventbus", "jcvideoplayer", "pulltorefresh", "Expandablelistview", "UniversalviedoView"};
         //配置适配器
         adapter = new CommonFrameFragmentAdapter(mContent, datas);
         mlv.setAdapter(adapter);

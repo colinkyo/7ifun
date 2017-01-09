@@ -43,7 +43,8 @@ public class OKHttpInListViewActivity extends Activity {
 
     private void getDataFromNet()
     {
-        url = "http://192.168.1.2/7ifun/api.php";
+        //url = "http://192.168.1.2/7ifun/api.php";
+        url = "http://www.7ifun.com/api.php";
         String saveJson = CacheUtils.getString(OKHttpInListViewActivity.this, url);
         if(!TextUtils.isEmpty(saveJson)){
             parseData(saveJson);
