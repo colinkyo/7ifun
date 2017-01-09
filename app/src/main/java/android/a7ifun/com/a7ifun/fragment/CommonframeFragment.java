@@ -9,6 +9,7 @@ import android.a7ifun.com.a7ifun.json.activity.NativeJsonParseActivity;
 import android.a7ifun.com.a7ifun.okhttp.activity.OKHttpActivity;
 import android.a7ifun.com.a7ifun.okhttp.adapter.CommonFrameFragmentAdapter;
 import android.a7ifun.com.a7ifun.okhttp.base.BaseFragment;
+import android.a7ifun.com.a7ifun.tablayout.activity.TabLayoutActivity;
 import android.content.Intent;
 import android.util.Log;
 import android.view.View;
@@ -65,6 +66,11 @@ public class CommonframeFragment extends BaseFragment {
                     Intent intent = new Intent(mContent, EventBusActivity.class);
                     startActivity(intent);
 
+                }else if(data.toLowerCase().equals("tablayout"))
+                {
+                    Intent intent = new Intent(mContent, TabLayoutActivity.class);
+                    startActivity(intent);
+
                 }
 
                 Toast.makeText(mContent, data, Toast.LENGTH_SHORT).show();
@@ -78,7 +84,7 @@ public class CommonframeFragment extends BaseFragment {
         super.initData();
         Log.e(TAG, "常用框架Fragment数据被初始化了....");
         //准备数据源
-        datas = new String[]{"OKHttp","nativeJsonParse","Gson","FastJson", "xUtils", "Retrofit2",
+        datas = new String[]{"OKHttp","nativeJsonParse","Gson","FastJson","TabLayout", "xUtils", "Retrofit2",
                 "Fresco", "Glide", "GrennDao", "Rxjava",
                 "picasso", "eventbus", "jcvideoplayer", "pulltorefresh", "Expandablelistview", "UniversalviedoView"};
         //配置适配器

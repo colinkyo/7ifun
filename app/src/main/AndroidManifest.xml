@@ -28,7 +28,10 @@
         <activity android:name=".okhttp.activity.OKHttpInListViewActivity" />
         <activity android:name=".android_pulltorefresh.PullToRefreshActivity" />
         <activity android:name=".eventbus.EventBusActivity" />
-        <activity android:name=".eventbus.EventBusSendActivity"></activity>
+        <activity android:name=".eventbus.EventBusSendActivity" />
+        <activity android:name=".tablayout.activity.TabLayoutActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            ></activity>
     </application>
 
 </manifest>
