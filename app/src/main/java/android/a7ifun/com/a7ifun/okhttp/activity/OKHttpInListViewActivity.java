@@ -55,7 +55,7 @@ public class OKHttpInListViewActivity extends Activity {
         OkHttpUtils
                 .get()
                 .url(url)
-                .id(100)
+                .id(100)  //标记不同的请求，在响应里分别处理
                 .build()
                 .execute(new MyStringCallback());
 
@@ -115,6 +115,7 @@ public class OKHttpInListViewActivity extends Activity {
         //用了FastJSON
         String json = response;
 
+        //快捷键 Alt + S 用GsonFormat 工具，创建json 数据对应的bean
         MovieInfo movieInfo = JSON.parseObject(json, MovieInfo.class);
 
         List<MovieInfo.RowsBean> rows = movieInfo.getRows();

@@ -1,1 +1,1 @@
-include ':app', ':sample-okhttp', ':okhttputils', ':okhttp-OkGo-master'
+include ':app', ':sample-okhttp', ':okhttputils'
