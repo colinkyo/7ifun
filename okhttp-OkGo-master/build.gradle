@@ -83,4 +83,5 @@ dependencies {
 //    compile 'com.lzy.net:okgo:+'
 //    compile 'com.lzy.net:okrx:+'
 //    compile 'com.lzy.net:okserver:+'
+    compile '__local_jars__:F:\\App\\7ifun\\app\\libs\\glide-3.7.0.jar:unspecified'
 }
