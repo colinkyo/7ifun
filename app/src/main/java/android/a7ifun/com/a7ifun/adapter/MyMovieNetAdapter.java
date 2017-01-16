@@ -20,22 +20,22 @@ import java.util.List;
 public class MyMovieNetAdapter extends BaseAdapter
 {
     private final Context mContext;
-    private final List<MovieInfo.RowsBean> mDats    ;
+    private final List<MovieInfo.RowsBean> mDatas    ;
 
     public MyMovieNetAdapter(Context context, List<MovieInfo.RowsBean> mdata)
     {
         this.mContext = context;
-        this.mDats = mdata;
+        this.mDatas = mdata;
     }
 
     @Override
     public int getCount() {
-        return mDats.size();
+        return mDatas.size();
     }
 
     @Override
     public Object getItem(int position) {
-        return mDats.get(position);
+        return mDatas.get(position);
     }
 
     @Override
@@ -64,13 +64,12 @@ public class MyMovieNetAdapter extends BaseAdapter
 
         //根据位置获取数据
 
-        MovieInfo.RowsBean rowsBean = mDats.get(position);
+        MovieInfo.RowsBean rowsBean = mDatas.get(position);
         viewHodle.tv_movie_name.setText(rowsBean.getSname());
         viewHodle.tv_movie_actor.setText(rowsBean.getSsname());
         viewHodle.tv_movie_time.setText(rowsBean.getStime());
 
         //使用Glid下载图片
-
         final String url = "http://www.7ifun.com/"+rowsBean.getSimg();
         //Glide获取图片显示
         Glide.with(mContext).load(url).into(viewHodle.iv_movie_logo);

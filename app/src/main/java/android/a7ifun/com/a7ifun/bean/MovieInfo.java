@@ -10,18 +10,37 @@ public class MovieInfo
 {
     /**
      * total : 4384
-     * rows : [{"id":"4386","spid":"电影","sname":"佩小姐的奇幻城堡","ssname":"怪屋女孩/怪奇孤儿院(台)/柏鸟小姐的童幻世界(港)/佩瑞格林小姐的特异儿童之家/特异儿童之家/裴小姐的奇幻城堡/Peregrine's Home for Peculiars","sdbf":"7.4","surl":"pxjdqhcb_201.html","dhit":"135","vhit":"183","sforbid":"0","simg":"uploads/2016-11-10/2016111003111615853.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-11-10 11:47:59","sutime":"2016-11-10 11:47:59","fsize":"0"},{"id":"4385","spid":"电影","sname":"请叫我英雄","ssname":"丧尸末日战(港)/I Am a Hero","sdbf":"7.1","surl":"qjwyx_57.html","dhit":"40","vhit":"84","sforbid":"0","simg":"uploads/2016-11-10/2016111003112134435.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-11-10 11:47:04","sutime":"2016-11-10 11:47:04","fsize":"0"},{"id":"4384","spid":"电影","sname":"名侦探柯南：纯黑的噩梦","ssname":"名侦探柯南：剧场版20/名侦探柯南：2016年剧场版/Meitantei Conan: Movie 20/Meitantei Konan: Junkoku no Akumu/Detective Con","sdbf":"6.6","surl":"mztknchdem_674.html","dhit":"104","vhit":"127","sforbid":"0","simg":"uploads/2016-11-10/2016111003114964068.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-11-10 11:43:20","sutime":"2016-11-10 11:43:20","fsize":"0"},{"id":"4374","spid":"电影","sname":"王牌逗王牌","ssname":"偷天特务(港)/盗中盗/爱上贼中贼/Mission Milano","sdbf":"4.3","surl":"wpdwp_123.html","dhit":"171","vhit":"397","sforbid":"0","simg":"uploads/2016-10-02/2016100214105191407.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-10-02 07:18:13","sutime":"2016-11-09 20:50:27","fsize":"0"},{"id":"4362","spid":"电影","sname":"七月与安生","ssname":"Soul Mate","sdbf":"6.9","surl":"qyyas_370.html","dhit":"69","vhit":"203","sforbid":"0","simg":"uploads/2016-09-14/2016091406095259181.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-09-14 14:37:10","sutime":"2016-10-28 22:09:01","fsize":"0"},{"id":"4363","spid":"电影","sname":"反贪风暴2","ssname":"Z风暴2","sdbf":"4.8","surl":"ftfb2_751.html","dhit":"200","vhit":"378","sforbid":"0","simg":"uploads/2016-09-14/2016091406093154556.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-09-14 14:37:47","sutime":"2016-10-27 06:09:40","fsize":"0"},{"id":"4380","spid":"电影","sname":"圆梦巨人","ssname":"吹梦巨人(港)/好心眼儿巨人","sdbf":"6.6","surl":"ymjr_140.html","dhit":"54","vhit":"157","sforbid":"0","simg":"uploads/2016-10-16/2016101603103666688.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-10-11 14:05:48","sutime":"2016-10-27 06:06:05","fsize":"0"},{"id":"4383","spid":"电影","sname":"麦兜·饭宝奇兵","ssname":"麦兜·麦露宝/McDull·Rise of The Rice Cooker/Rise of The Rice Cooker","sdbf":"6.4","surl":"mdfbqb_592.html","dhit":"16","vhit":"49","sforbid":"0","simg":"uploads/2016-10-19/2016101906102416770.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-10-19 14:16:05","sutime":"2016-10-19 14:16:05","fsize":"0"},{"id":"4382","spid":"电影","sname":"九条命","ssname":"我的老爸喵星人(台)/亿万喵星人(港)","sdbf":"7.1","surl":"jtm_835.html","dhit":"34","vhit":"61","sforbid":"0","simg":"uploads/2016-10-19/2016101906103453045.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-10-19 14:14:02","sutime":"2016-10-19 14:14:02","fsize":"0"},{"id":"4365","spid":"电影","sname":"大话西游3","ssname":"大话西游终结篇/A Chinese Odyssey：Part Three/A Chinese Odyssey Part III","sdbf":"4","surl":"dhxy3_220.html","dhit":"349","vhit":"725","sforbid":"0","simg":"uploads/2016-09-14/2016091406090477227.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-09-14 14:39:19","sutime":"2016-10-16 20:24:24","fsize":"0"},{"id":"4381","spid":"电影","sname":"暗杀游戏","ssname":"Mafiya: Igra na vyzhivanye/Mafia: Survival Game","sdbf":"6.4","surl":"asyx_333.html","dhit":"1","vhit":"295","sforbid":"0","simg":"uploads/2016-10-13/2016101308102196806.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-10-11 14:06:16","sutime":"2016-10-11 01:43:25","fsize":"0"},{"id":"4379","spid":"电影","sname":"24：逆转时空","ssname":"24: The Movie/Suriya","sdbf":"7.8","surl":"24nzsk_90.html","dhit":"47","vhit":"98","sforbid":"0","simg":"uploads/2016-10-11/2016101105104445719.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-10-10 23:00:16","sutime":"2016-10-10 23:00:16","fsize":"0"},{"id":"4378","spid":"电影","sname":"小戏骨：白蛇传","ssname":"小戏骨之白蛇传/小戏骨：白蛇传篇","sdbf":"9","surl":"bsc_912.html","dhit":"78","vhit":"122","sforbid":"0","simg":"uploads/2016-10-11/2016101105105226751.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-10-10 22:59:20","sutime":"2016-10-10 22:59:20","fsize":"0"},{"id":"4377","spid":"电影","sname":"湄公河行动","ssname":"湄公河大案/湄公河/Operation Mekong","sdbf":"8.2","surl":"mghxd_809.html","dhit":"468","vhit":"568","sforbid":"0","simg":"uploads/2016-10-07/2016100705101184262.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-10-06 22:38:36","sutime":"2016-10-06 22:38:36","fsize":"0"},{"id":"4376","spid":"电影","sname":"你的名字。","ssname":"你的名字/君之名/Your Name","sdbf":"9.1","surl":"ndmz_407.html","dhit":"654","vhit":"707","sforbid":"0","simg":"uploads/2016-10-03/2016100306101710023.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-10-02 23:08:59","sutime":"2016-10-02 23:08:59","fsize":"0"}]
+     * page : 2
+     * allpage : 293
+     * rows : [{"id":"4375","spid":"电影","sname":"爵迹","ssname":"L.O.R.D: Legend of Ravaging Dynasties","sdbf":"4.1","surl":"jj_909.html","dhit":"72","vhit":"301","sforbid":"0","simg":"uploads/2016-10-02/2016100214101363450.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-10-02 07:21:30","sutime":"2016-10-02 07:21:30","fsize":"0"},{"id":"4357","spid":"电影","sname":"星际迷航3：超越星辰","ssname":"星际迷航13：超越/星际旅行13：超越太空/星空奇遇记13：超域时空(港)/星际争霸战13：浩瀚无垠(台)/星舰奇航记13/星舰迷航记13/Star Trek XIII/Star Trek 13/St","sdbf":"7.6","surl":"xjmh3cyxc_417.html","dhit":"196","vhit":"491","sforbid":"0","simg":"uploads/2016-09-09/2016090906090929021.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-09-09 15:03:49","sutime":"2016-09-29 01:01:29","fsize":"0"},{"id":"4373","spid":"电影","sname":"机械师2：复活","ssname":"极速秒杀2(台)/机械师2/Mechanic 2/秒速杀机2(港)","sdbf":"6.1","surl":"jxs2_127.html","dhit":"208","vhit":"290","sforbid":"0","simg":"uploads/2016-09-28/2016092804095814766.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-09-28 12:44:28","sutime":"2016-09-28 12:44:28","fsize":"0"},{"id":"4343","spid":"电影","sname":"使徒行者","ssname":"使徒行者电影版/Line Walker","sdbf":"6.9","surl":"stxz_228.html","dhit":"140","vhit":"737","sforbid":"0","simg":"uploads/2016-08-11/2016081106084184194.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-08-11 14:44:56","sutime":"2016-09-27 21:10:35","fsize":"0"},{"id":"4364","spid":"电影","sname":"追凶者也","ssname":"吊水岩杀人事件/边城凶案/Cock and Bull","sdbf":"7.3","surl":"zxzy_649.html","dhit":"105","vhit":"390","sforbid":"0","simg":"uploads/2016-09-14/2016091406092298714.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-09-14 14:38:41","sutime":"2016-09-24 21:13:15","fsize":"0"},{"id":"4372","spid":"电影","sname":"幸运是我","ssname":"Happiness","sdbf":"7.8","surl":"xysw_437.html","dhit":"15","vhit":"43","sforbid":"0","simg":"uploads/2016-09-20/2016092010092978770.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-09-20 18:15:33","sutime":"2016-09-20 18:15:33","fsize":"0"},{"id":"4371","spid":"电影","sname":"恐慌屋的美女","ssname":"","sdbf":"5","surl":"khwdmn_867.html","dhit":"6","vhit":"24","sforbid":"0","simg":"uploads/2016-09-20/2016092010091677123.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-09-20 18:14:02","sutime":"2016-09-20 18:14:02","fsize":"0"},{"id":"4370","spid":"电影","sname":"告诉我是怎么死的","ssname":"","sdbf":"4.6","surl":"gswszmsd_562.html","dhit":"3","vhit":"17","sforbid":"0","simg":"uploads/2016-09-20/2016092010093758293.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-09-20 18:13:02","sutime":"2016-09-20 18:13:02","fsize":"0"},{"id":"4369","spid":"电影","sname":"龙拳小子","ssname":"Kung Fu Boys","sdbf":"4","surl":"lqxz_317.html","dhit":"8","vhit":"39","sforbid":"0","simg":"uploads/2016-09-20/2016092010095571063.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-09-20 18:12:13","sutime":"2016-09-20 18:12:13","fsize":"0"},{"id":"4368","spid":"电影","sname":"七月半2：前世今生","ssname":"七月半2/七月半之前世今生","sdbf":"2.7","surl":"qyb2qsjs_438.html","dhit":"7","vhit":"36","sforbid":"0","simg":"uploads/2016-09-20/2016092010091948264.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-09-20 18:11:40","sutime":"2016-09-20 18:11:40","fsize":"0"},{"id":"4367","spid":"电影","sname":"红色警戒999","ssname":"反恐999(港)/非法999(台)/九九九/Triple Nine/999","sdbf":"5.8","surl":"hsjj999_30.html","dhit":"31","vhit":"57","sforbid":"0","simg":"uploads/2016-09-20/2016092010093627518.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-09-20 18:10:58","sutime":"2016-09-20 18:10:58","fsize":"0"},{"id":"4319","spid":"电影","sname":"泡沫之夏","ssname":"Summer's Desire","sdbf":"4.7","surl":"pmzx_16.html","dhit":"4","vhit":"46","sforbid":"0","simg":"uploads/2016-07-21/2016072102074155436.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-07-21 10:48:57","sutime":"2016-09-20 03:17:40","fsize":"0"},{"id":"4354","spid":"电影","sname":"微微一笑很倾城","ssname":"微微一笑很倾城电影版/Love O2O","sdbf":"5.5","surl":"wwyxhqc_224.html","dhit":"33","vhit":"103","sforbid":"0","simg":"uploads/2016-09-09/2016090906095860003.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-09-09 14:46:12","sutime":"2016-09-19 05:36:12","fsize":"0"},{"id":"4338","spid":"电影","sname":"盗墓笔记","ssname":"Time Raiders/The Lost Tomb","sdbf":"4.9","surl":"dmbj_932.html","dhit":"199","vhit":"490","sforbid":"1","simg":"uploads/2016-08-05/2016080507085286654.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-08-05 15:04:38","sutime":"2016-09-19 00:06:26","fsize":"0"},{"id":"4342","spid":"电影","sname":"危城","ssname":"危城歼霸/夕阳武士/The Deadly Reclaim/Call of Heroes","sdbf":"5.8","surl":"wc_271.html","dhit":"87","vhit":"425","sforbid":"0","simg":"uploads/2016-08-11/2016081106084621877.jpg","szd":"0","shot":"0","sshow":"1","stime":"2016-08-11 14:44:03","sutime":"2016-09-17 00:20:45","fsize":"0"}]
      */
-
-    private String total;
+    private int total;
+    private int page;
+    private int allpage;
     private List<RowsBean> rows;
 
-    public String getTotal() {
+    public int getTotal() {
         return total;
     }
 
-    public void setTotal(String total) {
+    public void setTotal(int total) {
         this.total = total;
+    }
+
+    public int getPage() {
+        return page;
+    }
+
+    public void setPage(int page) {
+        this.page = page;
+    }
+
+    public int getAllpage() {
+        return allpage;
+    }
+
+    public void setAllpage(int allpage) {
+        this.allpage = allpage;
     }
 
     public List<RowsBean> getRows() {
@@ -32,31 +51,23 @@ public class MovieInfo
         this.rows = rows;
     }
 
-    @Override
-    public String toString() {
-        return "MovieInfo{" +
-                "total='" + total + '\'' +
-                ", rows=" + rows +
-                '}';
-    }
-
     public static class RowsBean {
         /**
-         * id : 4386
+         * id : 4375
          * spid : 电影
-         * sname : 佩小姐的奇幻城堡
-         * ssname : 怪屋女孩/怪奇孤儿院(台)/柏鸟小姐的童幻世界(港)/佩瑞格林小姐的特异儿童之家/特异儿童之家/裴小姐的奇幻城堡/Peregrine's Home for Peculiars
-         * sdbf : 7.4
-         * surl : pxjdqhcb_201.html
-         * dhit : 135
-         * vhit : 183
+         * sname : 爵迹
+         * ssname : L.O.R.D: Legend of Ravaging Dynasties
+         * sdbf : 4.1
+         * surl : jj_909.html
+         * dhit : 72
+         * vhit : 301
          * sforbid : 0
-         * simg : uploads/2016-11-10/2016111003111615853.jpg
+         * simg : uploads/2016-10-02/2016100214101363450.jpg
          * szd : 0
          * shot : 0
          * sshow : 1
-         * stime : 2016-11-10 11:47:59
-         * sutime : 2016-11-10 11:47:59
+         * stime : 2016-10-02 07:21:30
+         * sutime : 2016-10-02 07:21:30
          * fsize : 0
          */
 
@@ -76,28 +87,6 @@ public class MovieInfo
         private String stime;
         private String sutime;
         private String fsize;
-
-        @Override
-        public String toString() {
-            return "RowsBean{" +
-                    "id='" + id + '\'' +
-                    ", spid='" + spid + '\'' +
-                    ", sname='" + sname + '\'' +
-                    ", ssname='" + ssname + '\'' +
-                    ", sdbf='" + sdbf + '\'' +
-                    ", surl='" + surl + '\'' +
-                    ", dhit='" + dhit + '\'' +
-                    ", vhit='" + vhit + '\'' +
-                    ", sforbid='" + sforbid + '\'' +
-                    ", simg='" + simg + '\'' +
-                    ", szd='" + szd + '\'' +
-                    ", shot='" + shot + '\'' +
-                    ", sshow='" + sshow + '\'' +
-                    ", stime='" + stime + '\'' +
-                    ", sutime='" + sutime + '\'' +
-                    ", fsize='" + fsize + '\'' +
-                    '}';
-        }
 
         public String getId() {
             return id;

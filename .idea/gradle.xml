@@ -9,8 +9,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/PullToRefresh-library" />
+            <option value="$PROJECT_DIR$/PullToRefresh-sample" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/okhttputils" />
+            <option value="$PROJECT_DIR$/pullToRefreshListFragment" />
+            <option value="$PROJECT_DIR$/pullToRefreshViewPager" />
             <option value="$PROJECT_DIR$/sample-okhttp" />
           </set>
         </option>

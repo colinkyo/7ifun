@@ -12,6 +12,7 @@
     <ImageView
         android:layout_centerInParent="true"
         android:id="@+id/iv_movie_logo"
+        android:layout_margin="3dp"
         android:layout_width="120dp"
         android:layout_height="100dp"
         android:scaleType="fitXY"
@@ -33,11 +34,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#000000"
+        android:singleLine="true"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/tv_movie_actor"
         android:text="电影的主演"
+        android:singleLine="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#44000000"
@@ -46,6 +49,7 @@
     <TextView
         android:id="@+id/tv_movie_time"
         android:text="2010-10-03"
+        android:singleLine="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#44000000"

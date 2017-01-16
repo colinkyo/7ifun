@@ -60,10 +60,10 @@ In PullToRefreshViewPager:
 * res\ => pullToRefreshViewPager\src\main\res\
 * src\ => pullToRefreshViewPager\src\main\java\
 In sample:
-* AndroidManifest.xml => Android-PullToRefresh\src\main\AndroidManifest.xml
-* assets\ => Android-PullToRefresh\src\main\assets\
-* res\ => Android-PullToRefresh\src\main\res\
-* src\ => Android-PullToRefresh\src\main\java\
+* AndroidManifest.xml => sample\src\main\AndroidManifest.xml
+* assets\ => sample\src\main\assets\
+* res\ => sample\src\main\res\
+* src\ => sample\src\main\java\
 
 Missing Android Support Repository:
 -----------------------------------

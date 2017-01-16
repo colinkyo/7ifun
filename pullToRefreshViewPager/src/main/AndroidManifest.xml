@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.handmark.pulltorefresh.extras.viewpager"
+   android:versionCode="2110"
+    android:versionName="2.1.1" >
+
+    <uses-sdk tools:overrideLibrary="android.support.v4,com.handmark.pulltorefresh.extras.viewpager,android.support.fragment,android.support.mediacompat,android.support.coreui,android.support.coreutils"/>
+    <!--<uses-sdk android:minSdkVersion="14" />-->
+
+    <application />
+
+</manifest>

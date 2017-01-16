@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/pull_to_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ptr:ptrAnimationStyle="rotate"
+        ptr:ptrDrawable="@mipmap/ic_launcher"
+        ptr:ptrHeaderBackground="#0ff"
+        ptr:ptrHeaderSubTextColor="#f00"
+        ptr:ptrHeaderTextColor="#f0f"
+        ptr:ptrListViewExtrasEnabled="false"
+        ptr:ptrRefreshableViewBackground="#ff0"
+        ptr:ptrRotateDrawableWhilePulling="false"
+        ptr:ptrShowIndicator="true" />
+</LinearLayout>

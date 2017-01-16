@@ -28,7 +28,6 @@ dependencies {
     //compile files('libs/okhttp-3.5.0.jar')
     //compile files('libs/okio-1.11.0.jar')
     compile project(':okhttputils')
-    compile 'com.android.support:appcompat-v7:25.1.0'
     compile 'com.android.support:design:25.1.0'
     testCompile 'junit:junit:4.12'
     compile files('libs/gson-2.8.0.jar')
@@ -36,4 +35,7 @@ dependencies {
     compile files('libs/glide-3.7.0.jar')
     compile files('libs/eventbus-3.0.0.jar')
     compile files('libs/eventbus-3.0.0-sources.jar')
+    compile project(':PullToRefresh-library')
+    compile 'com.android.support:support-v4:25.1.0'
+    compile 'com.android.support:appcompat-v7:25.1.0'
 }
