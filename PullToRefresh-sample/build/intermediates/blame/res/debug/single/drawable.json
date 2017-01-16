@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\App\\7ifun\\PullToRefresh-sample\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "E:\\App\\7ifun\\PullToRefresh-sample\\build\\intermediates\\exploded-aar\\7ifun\\PullToRefresh-library\\unspecified\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "E:\\App\\7ifun\\PullToRefresh-sample\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "E:\\App\\7ifun\\PullToRefresh-sample\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "E:\\App\\7ifun\\PullToRefresh-sample\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "E:\\App\\7ifun\\PullToRefresh-sample\\build\\intermediates\\exploded-aar\\7ifun\\PullToRefresh-library\\unspecified\\res\\drawable\\indicator_bg_bottom.xml"
+    }
+]

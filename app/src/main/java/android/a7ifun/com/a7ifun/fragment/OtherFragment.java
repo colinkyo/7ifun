@@ -126,7 +126,7 @@ public class OtherFragment extends BaseFragment {
                         rows.clear();
                         getDataFromNet(page);
                         //刷新适配器中的数据
-                        adapter.notifyDataSetChanged();
+                        //adapter.notifyDataSetChanged();
                        /* int  position = lv_7ifun.getFirstVisiblePosition();
                         View v = lv_7ifun.getChildAt(0);
                         int top = (v == null) ? 0 : v.getTop();
@@ -164,9 +164,7 @@ public class OtherFragment extends BaseFragment {
 
                         int idx = lv_7ifun.getFirstVisiblePosition();
                         getDataFromNet(page);
-                        //刷新适配器中的数据
-                        adapter.notifyDataSetChanged();
-                        lv_7ifun.setSelection(idx);
+                        //lv_7ifun.setSelection(idx);
                       /*  int  position = lv_7ifun.getFirstVisiblePosition();
                         View v = lv_7ifun.getChildAt(0);
                         int top = (v == null) ? 0 : v.getTop();
@@ -257,5 +255,7 @@ public class OtherFragment extends BaseFragment {
         //pb_loading.setVisibility(View.GONE);
         //停止刷新
         mPullToRefreshListView.onRefreshComplete();
+        //刷新适配器中的数据
+        adapter.notifyDataSetChanged();
     }
 }
