@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -36,6 +37,7 @@ public class OtherFragment extends BaseFragment {
     private PullToRefreshListView mPullToRefreshListView;
     private ListView lv_7ifun;
     private String url;
+    private ProgressBar pb_loading;
     private MyMovieNetAdapter adapter;
     private List<MovieInfo.RowsBean> rows;
 //    allpage 为总页数，page为当前页数
@@ -52,6 +54,7 @@ public class OtherFragment extends BaseFragment {
         return textView;*/
 //      加载包含PullToRefreshListView控件的布局进来
         View ptrview = View.inflate(mContent, R.layout.item_movie_ptr_7ifun_container,null);
+        pb_loading = (ProgressBar) ptrview.findViewById(R.id.pb_loading);
         tv_nodata = (TextView) ptrview.findViewById(R.id.tv_nodata);
         mPullToRefreshListView = (PullToRefreshListView) ptrview.findViewById(R.id.pull_to_refresh_7ifun);
         lv_7ifun = mPullToRefreshListView.getRefreshableView();
@@ -252,7 +255,10 @@ public class OtherFragment extends BaseFragment {
             tv_nodata.setVisibility(View.VISIBLE);
         }
         //进度条始终都要关闭
-        //pb_loading.setVisibility(View.GONE);
+        pb_loading.setVisibility(View.GONE);
+        /**
+         * ListView的代码需要放在这里，不然更新时会不连续
+         */
         //停止刷新
         mPullToRefreshListView.onRefreshComplete();
         //刷新适配器中的数据

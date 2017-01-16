@@ -43,7 +43,7 @@
         />
     <RadioButton
         android:id="@+id/bnt4"
-        android:text="事务"
+        android:text="7ifun"
         android:drawableTop="@drawable/rb_btn4_selector"
         style="@style/btn_tag_style"
         />
