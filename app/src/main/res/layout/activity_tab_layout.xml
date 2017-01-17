@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="android.a7ifun.com.a7ifun.tablayout.activity.TabLayoutActivity">
+    tools:context="android.a7ifun.com.a7ifun.hui.a7ifun.com.a7ifun.tablayout.activity.TabLayoutActivity">
     <include layout="@layout/titlebar"></include>
     <android.support.design.widget.TabLayout
         android:id="@+id/tabLayout"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.a7ifun.com.a7ifun">
+    package="hui.a7ifun.com.a7ifun">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -11,7 +11,7 @@
         android:label="去分享"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LauncherActivity">
+        <activity android:name="hui.a7ifun.com.a7ifun.LauncherActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,17 +19,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="hui.a7ifun.com.a7ifun.MainActivity"
             android:configChanges="orientation|screenSize|keyboardHidden" />
-        <activity android:name=".okhttp.activity.OKHttpActivity" />
-        <activity android:name=".json.activity.NativeJsonParseActivity" />
-        <activity android:name=".json.activity.GsonActivity" />
-        <activity android:name=".json.activity.FastJsonActivity" />
-        <activity android:name=".okhttp.activity.OKHttpInListViewActivity" />
-        <activity android:name=".android_pulltorefresh.PullToRefreshActivity" />
-        <activity android:name=".eventbus.EventBusActivity" />
-        <activity android:name=".eventbus.EventBusSendActivity" />
-        <activity android:name=".tablayout.activity.TabLayoutActivity"
+        <activity android:name="hui.a7ifun.com.a7ifun.okhttp.activity.OKHttpActivity" />
+        <activity android:name="hui.a7ifun.com.a7ifun.json.activity.NativeJsonParseActivity" />
+        <activity android:name="hui.a7ifun.com.a7ifun.json.activity.GsonActivity" />
+        <activity android:name="hui.a7ifun.com.a7ifun.json.activity.FastJsonActivity" />
+        <activity android:name="hui.a7ifun.com.a7ifun.okhttp.activity.OKHttpInListViewActivity" />
+        <activity android:name="hui.a7ifun.com.a7ifun.android_pulltorefresh.PullToRefreshActivity" />
+        <activity android:name="hui.a7ifun.com.a7ifun.eventbus.EventBusActivity" />
+        <activity android:name="hui.a7ifun.com.a7ifun.eventbus.EventBusSendActivity" />
+        <activity android:name="hui.a7ifun.com.a7ifun.tablayout.activity.TabLayoutActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             ></activity>
     </application>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\App\\7ifun\\pullToRefreshListFragment\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\default_ptr_flip.png",
+        "source": "E:\\App\\7ifun\\pullToRefreshListFragment\\build\\intermediates\\exploded-aar\\7ifun\\PullToRefresh-library\\unspecified\\res\\drawable-mdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "E:\\App\\7ifun\\pullToRefreshListFragment\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\indicator_arrow.png",
+        "source": "E:\\App\\7ifun\\pullToRefreshListFragment\\build\\intermediates\\exploded-aar\\7ifun\\PullToRefresh-library\\unspecified\\res\\drawable-mdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "E:\\App\\7ifun\\pullToRefreshListFragment\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\default_ptr_rotate.png",
+        "source": "E:\\App\\7ifun\\pullToRefreshListFragment\\build\\intermediates\\exploded-aar\\7ifun\\PullToRefresh-library\\unspecified\\res\\drawable-mdpi-v4\\default_ptr_rotate.png"
+    }
+]

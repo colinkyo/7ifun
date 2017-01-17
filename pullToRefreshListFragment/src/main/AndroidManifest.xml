@@ -4,7 +4,7 @@
     package="com.handmark.pulltorefresh.extras.listfragment"
     android:versionCode="2110"
     android:versionName="2.1.1" >
-    <uses-sdk tools:overrideLibrary="com.handmark.pulltorefresh.extras.listfragment,android.support.v4"/>
+    <uses-sdk tools:overrideLibrary="com.handmark.pulltorefresh.extras.listfragment,android.support.v4,android.support.fragment,android.support.compat,android.support.coreui,android.support.coreutils,android.support.mediacompat"/>
     <application />
 
 </manifest>

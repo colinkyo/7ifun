@@ -19,8 +19,8 @@ ADDED from E:\App\7ifun\PullToRefresh-sample\src\main\AndroidManifest.xml:2:1-72
 		ADDED from E:\App\7ifun\PullToRefresh-sample\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from E:\App\7ifun\PullToRefresh-sample\src\main\AndroidManifest.xml:8:5-11:41
-MERGED from [7ifun:pullToRefreshListFragment:unspecified] E:\App\7ifun\PullToRefresh-sample\build\intermediates\exploded-aar\7ifun\pullToRefreshListFragment\unspecified\AndroidManifest.xml:8:5-11:101
-MERGED from [7ifun:pullToRefreshViewPager:unspecified] E:\App\7ifun\PullToRefresh-sample\build\intermediates\exploded-aar\7ifun\pullToRefreshViewPager\unspecified\AndroidManifest.xml:8:5-11:200
+MERGED from [7ifun:pullToRefreshListFragment:unspecified] E:\App\7ifun\PullToRefresh-sample\build\intermediates\exploded-aar\7ifun\pullToRefreshListFragment\unspecified\AndroidManifest.xml:8:5-11:226
+MERGED from [7ifun:pullToRefreshViewPager:unspecified] E:\App\7ifun\PullToRefresh-sample\build\intermediates\exploded-aar\7ifun\pullToRefreshViewPager\unspecified\AndroidManifest.xml:8:5-11:226
 MERGED from [com.android.support:support-v4:25.1.0] E:\App\7ifun\PullToRefresh-sample\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.1.0] E:\App\7ifun\PullToRefresh-sample\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.1.0] E:\App\7ifun\PullToRefresh-sample\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\AndroidManifest.xml:21:5-23:63

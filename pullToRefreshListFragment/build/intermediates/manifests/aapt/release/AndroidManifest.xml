@@ -8,7 +8,7 @@
     <uses-sdk
         android:minSdkVersion="4"
         android:targetSdkVersion="15"
-        tools:overrideLibrary="com.handmark.pulltorefresh.extras.listfragment,android.support.v4" />
+        tools:overrideLibrary="com.handmark.pulltorefresh.extras.listfragment,android.support.v4,android.support.fragment,android.support.compat,android.support.coreui,android.support.coreutils,android.support.mediacompat" />
 
     <application />
 

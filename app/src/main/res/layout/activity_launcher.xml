@@ -5,7 +5,7 @@
     android:background="@android:color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="android.a7ifun.com.a7ifun.LauncherActivity">
+    tools:context="android.a7ifun.com.a7ifun.hui.a7ifun.com.a7ifun.LauncherActivity">
 <ImageView
     android:id="@+id/iv_logo"
     android:src="@drawable/alogo"
