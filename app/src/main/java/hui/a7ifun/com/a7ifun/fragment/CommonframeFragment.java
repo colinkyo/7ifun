@@ -1,6 +1,7 @@
 package hui.a7ifun.com.a7ifun.fragment;
 
 import hui.a7ifun.com.a7ifun.android_pulltorefresh.PullToRefreshActivity;
+import hui.a7ifun.com.a7ifun.butterknife.activity.ButterKnifeActivity;
 import hui.a7ifun.com.a7ifun.eventbus.EventBusActivity;
 import hui.a7ifun.com.a7ifun.json.activity.FastJsonActivity;
 import hui.a7ifun.com.a7ifun.json.activity.GsonActivity;
@@ -70,6 +71,11 @@ public class CommonframeFragment extends BaseFragment {
                     Intent intent = new Intent(mContent, TabLayoutActivity.class);
                     startActivity(intent);
 
+                }else if(data.toLowerCase().equals("butterknife"))
+                {
+                    Intent intent = new Intent(mContent, ButterKnifeActivity.class);
+                    startActivity(intent);
+
                 }
 
                 Toast.makeText(mContent, data, Toast.LENGTH_SHORT).show();
@@ -83,7 +89,7 @@ public class CommonframeFragment extends BaseFragment {
         super.initData();
         Log.e(TAG, "常用框架Fragment数据被初始化了....");
         //准备数据源
-        datas = new String[]{"OKHttp","nativeJsonParse","Gson","FastJson","TabLayout", "xUtils", "Retrofit2",
+        datas = new String[]{"OKHttp","nativeJsonParse","Gson","FastJson","ButterKnife","TabLayout", "xUtils", "Retrofit2",
                 "Fresco", "Glide", "GrennDao", "Rxjava",
                 "picasso", "eventbus", "jcvideoplayer", "pulltorefresh", "Expandablelistview", "UniversalviedoView"};
         //配置适配器

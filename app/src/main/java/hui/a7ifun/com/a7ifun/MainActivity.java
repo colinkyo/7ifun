@@ -31,7 +31,6 @@ public class MainActivity extends FragmentActivity
         initFragment();
         //设置RadioGroup监听
         setListener();
-
     }
 
     private void setListener()
