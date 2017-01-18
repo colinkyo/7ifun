@@ -1,5 +1,6 @@
 package hui.a7ifun.com.a7ifun.tablayout.activity;
 
+import hui.a7ifun.com.a7ifun.R;
 import hui.a7ifun.com.a7ifun.tablayout.adapter.ViewPageAdapter;
 import hui.a7ifun.com.a7ifun.tablayout.fragment.MyFragment;
 import android.support.design.widget.TabLayout;
@@ -23,9 +24,9 @@ public class TabLayoutActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(hui.a7ifun.com.a7ifun.R.layout.activity_tab_layout);
 
-        viewpage = (ViewPager) findViewById(hui.a7ifun.com.a7ifun.R.id.viewpage);
-        tv_title = (TextView) findViewById(hui.a7ifun.com.a7ifun.R.id.tv_title);
-        tabLayout = (TabLayout) findViewById(hui.a7ifun.com.a7ifun.R.id.tabLayout);
+        viewpage = (ViewPager) findViewById(R.id.viewpage);
+        tv_title = (TextView) findViewById(R.id.tv_title);
+        tabLayout = (TabLayout) findViewById(R.id.tabLayout);
         tv_title.setText("TabLayout......");
         fragments = new ArrayList<>();
 

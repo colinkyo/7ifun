@@ -32,7 +32,9 @@
         <activity
             android:name=".tablayout.activity.TabLayoutActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".butterknife.activity.ButterKnifeActivity"></activity>
+        <activity android:name=".butterknife.activity.ButterKnifeActivity" />
+        <activity android:name=".tablayout.activity.CTabLayoutActivity" />
+        <activity android:name=".smscheck.activity.SMSCheckActivity"></activity>
     </application>
 
 </manifest>

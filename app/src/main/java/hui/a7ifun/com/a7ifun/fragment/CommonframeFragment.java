@@ -9,6 +9,7 @@ import hui.a7ifun.com.a7ifun.json.activity.NativeJsonParseActivity;
 import hui.a7ifun.com.a7ifun.okhttp.activity.OKHttpActivity;
 import hui.a7ifun.com.a7ifun.okhttp.adapter.CommonFrameFragmentAdapter;
 import hui.a7ifun.com.a7ifun.okhttp.base.BaseFragment;
+import hui.a7ifun.com.a7ifun.smscheck.activity.SMSCheckActivity;
 import hui.a7ifun.com.a7ifun.tablayout.activity.TabLayoutActivity;
 import android.content.Intent;
 import android.util.Log;
@@ -76,6 +77,11 @@ public class CommonframeFragment extends BaseFragment {
                     Intent intent = new Intent(mContent, ButterKnifeActivity.class);
                     startActivity(intent);
 
+                }else if(data.toLowerCase().equals("smscheck"))
+                {
+                    Intent intent = new Intent(mContent, SMSCheckActivity.class);
+                    startActivity(intent);
+
                 }
 
                 Toast.makeText(mContent, data, Toast.LENGTH_SHORT).show();
@@ -89,7 +95,7 @@ public class CommonframeFragment extends BaseFragment {
         super.initData();
         Log.e(TAG, "常用框架Fragment数据被初始化了....");
         //准备数据源
-        datas = new String[]{"OKHttp","nativeJsonParse","Gson","FastJson","ButterKnife","TabLayout", "xUtils", "Retrofit2",
+        datas = new String[]{"OKHttp","nativeJsonParse","Gson","FastJson","ButterKnife","TabLayout","SMSCheck", "xUtils", "Retrofit2",
                 "Fresco", "Glide", "GrennDao", "Rxjava",
                 "picasso", "eventbus", "jcvideoplayer", "pulltorefresh", "Expandablelistview", "UniversalviedoView"};
         //配置适配器

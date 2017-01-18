@@ -3,6 +3,7 @@ package hui.a7ifun.com.a7ifun.fragment;
 import hui.a7ifun.com.a7ifun.R;
 import hui.a7ifun.com.a7ifun.adapter.MyMovieViewPageAdapter;
 import hui.a7ifun.com.a7ifun.okhttp.base.BaseFragment;
+import hui.a7ifun.com.a7ifun.tablayout.base.ViewPagerScroller;
 
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
@@ -93,6 +94,13 @@ public class ThirdPartyFragment extends BaseFragment
         adapter = new MyMovieViewPageAdapter(getActivity().getSupportFragmentManager(),arrayList);
 //        绑定数据
         viewPager.setAdapter(adapter);
+
+//      viewPager.setOffscreenPageLimit(4);表示四个界面之间来回切换都不会重新加载
+        viewPager.setOffscreenPageLimit(4);
+//      设置切换滑动动画时间
+        /*ViewPagerScroller scroller = new ViewPagerScroller(mContent);
+        scroller.setScrollDuration(4000);
+        scroller.initViewPagerScroll(viewPager);  //这个是设置切换过渡时间为0毫秒*/
 //       关联tab
         tabLayout.setupWithViewPager(viewPager);
 //       标题可以滚动
