@@ -40,4 +40,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.1.0'
     compile 'com.jakewharton:butterknife:8.4.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+    compile files('libs/taobao-sdk-java-auto_1455552377940-20160607.jar')
+    compile files('libs/taobao-sdk-java-auto_1455552377940-20160607-source.jar')
 }

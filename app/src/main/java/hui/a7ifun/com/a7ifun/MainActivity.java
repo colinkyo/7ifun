@@ -37,7 +37,7 @@ public class MainActivity extends FragmentActivity
     {
         mRg_main.setOnCheckedChangeListener(new myOnCheckedChangeListener());
         //默认选择项
-        mRg_main.check(R.id.bnt2);
+        mRg_main.check(R.id.bnt1);
     }
     class myOnCheckedChangeListener implements RadioGroup.OnCheckedChangeListener{
 

@@ -4,6 +4,66 @@
     android:id="@+id/activity_smscheck"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="hui.a7ifun.com.a7ifun.smscheck.activity.SMSCheckActivity">
-<include layout="@layout/titlebar"></include>
+
+    <include layout="@layout/titlebar"></include>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_margin="@dimen/activity_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="手机号码:" />
+
+    <EditText
+        android:id="@+id/et_tel"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_et_bg"
+        android:layout_width="match_parent"
+        android:ems="11"
+        android:maxLength="11"
+        android:inputType="numberSigned"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="验证码:" />
+
+    <EditText
+        android:id="@+id/et_code"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_et_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:maxLength="6"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/selector_btn_bg"
+        android:text="获取阿里大鱼验证码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/selector_btn_bg"
+        android:text="验证阿里大鱼验证码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_parseJson"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/selector_btn_bg"
+        android:text="解析阿里大鱼返回的JSON格式"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
 </LinearLayout>
